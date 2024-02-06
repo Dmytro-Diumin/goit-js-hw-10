@@ -1,10 +1,8 @@
 body {
-    width: 1440px;
-    height: 496px;
     font-family: Montserrat;
     font-size: 16px;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.04em;
     text-align: left;
     background-color: #FFFFFF;
@@ -14,10 +12,12 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    color: crimson;
+}
+
 form {
-    display: flex;
-    flex-direction: column;
-    margin: 36px 0px 0px 156px;
+    margin-left: 156px;
 }
 
 form > label {
@@ -40,9 +40,6 @@ form > label > input:hover {
 form > label > input:focus {
     border: 1px solid #4E75FF;
 }
-/* form > fieldset > label {
-    
-} */
 
 fieldset {
     width: 368px;
@@ -79,7 +76,7 @@ button {
     font-family: Montserrat;
     font-size: 16px;
     font-weight: 500;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.04em;
     text-align: left;
     color: #FFFFFF;

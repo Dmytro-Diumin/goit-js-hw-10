@@ -1,3 +1,113 @@
 a {
     text-decoration: none;
 }
+
+a:hover {
+    color: crimson;
+}
+
+input {
+    margin-left: 156px;
+    width: 252px;
+    height: 40px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    text-align: left;
+    color: #2E2F42;
+    border: 1px solid #808080;
+    border-radius: 4px;
+    outline: none;
+    
+}
+
+input:hover {
+    border: 1px solid #000000;
+}
+
+input:focus {
+    border: 1px solid #4E75FF;
+}
+
+input:disabled {
+    border: 1px solid #808080;
+    color: #808080;
+}
+
+.flatpickr-input {
+    padding-left: 16px;
+}
+
+button {
+    width: 75px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    text-align: center;
+    padding: 8px 16px;
+    border-radius: 8px;
+    background: #4E75FF;
+    color: #FFFFFF;
+    border: none;
+    margin-left: 8px;
+    gap: 10px;
+}
+
+button:hover {
+    background: #6C8CFF;
+}
+
+button:disabled {
+    background: #cfcfcf;
+    color: #989898;
+}
+
+.timer {
+    display: flex;
+    width: 346px;
+    margin-left: 156px;
+    justify-content: space-between;
+    margin-top: 32px;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.value {
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: 0.04em;
+     
+    color: #2E2F42;   
+}
+
+.lable {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0em;
+    
+    color: #2E2F42;
+}
+
+span.flatpickr-day.today.selected {
+    border: 1px solid #4E75FF;
+    background-color: #fff;
+    color: #666666;
+    ;
+}
+
+span.flatpickr-day:hover {
+    border: 1px solid #4E75FF;
+    background-color: #fff;
+}
